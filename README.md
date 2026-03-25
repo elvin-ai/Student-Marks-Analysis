@@ -9,8 +9,7 @@ This is a beginner-friendly data analysis project built using Python and NumPy. 
 -     1. Average Marks
 -     2. Toppers Marks
 -     3. Mean Marks 
--     4. Generates graph based on the performance.
--     5. After analysing the class performance, the code generates a graph depicting the performance of the class.
+-     4. After analysing the marks of the students, the code generates a graph depicting the performance of the class.
 - Identifies top performing student.
 - Language used is Python.
 - Tech stack comprises NumPy and Matplotlib.
