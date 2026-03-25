@@ -14,7 +14,8 @@ m1=np.max(m)
 hm=np.argmax(m)
 indices=np.where(m==m1)[0]
 toppers=n[indices]
-
+print("Average : ",avg)
+print("Mean : ",mean)
 print("Highest Marks  : ", m1)
 print("Highest Scorer : ",toppers)
 
