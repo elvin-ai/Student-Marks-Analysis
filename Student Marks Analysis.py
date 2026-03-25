@@ -12,10 +12,11 @@ avg=np.average(m)
 mean=np.mean(m)
 m1=np.max(m)
 hm=np.argmax(m)
-topper=n[hm]
+indices=np.where(m==m1)[0]
+toppers=n[indices]
 
 print("Highest Marks  : ", m1)
-print("Highest Scorer : ",topper)
+print("Highest Scorer : ",toppers)
 
 plt.bar(n,m)
 plt.title("Analysis")
